@@ -116,7 +116,7 @@ body {
   margin-left: 5%;
 }
 
-/* .card {
+.card {
   display: flex;
   flex-direction: column;
   background: rgb(180, 182, 218);
@@ -133,7 +133,7 @@ body {
   padding: 1rem;
 
   position: relative;
-} */
+}
 
 .card textarea {
   padding: 0.5rem;

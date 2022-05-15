@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useRef } from "react";
-//import { AiFillEdit } from "react-icons/ai";
-//import { IoCheckmarkDoneSharp, IoClose } from "react-icons/io5";
+import { AiFillEdit } from "react-icons/ai";
+import { IoCheckmarkDoneSharp, IoClose } from "react-icons/io5";
 
 const TodoItem = (props) => {
   const { item, updateTodo, removeTodo, completeTodo } = props;

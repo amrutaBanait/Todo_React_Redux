@@ -60,7 +60,7 @@ body {
   outline: none;
   border: 2px solid rgb(67, 58, 168);
 }
-/* 
+
 .add-btn {
   margin-left: 1rem;
   background-color: #271c6c;
@@ -76,11 +76,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
 
-/* .add-btn:focus {
+.add-btn:focus {
   outline: none;
-} */
+}
 
 .displaytodos {
   margin-top: 3rem;

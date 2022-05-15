@@ -14,8 +14,8 @@ html {
 body {
   background: linear-gradient(
     190deg,
-    rgb(134, 123, 205) 0%,
-    rgb(106, 90, 171) 100%
+    rgb(72, 137, 55) 0%,
+    rgb(74, 181, 113) 100%
   );
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,7 +141,7 @@ body {
   border: none;
   background-color: #e1ebfd;
 
-  color: #271c6c;
+  color: #37bb48;
   height: 70%;
 }
 .card textarea:disabled {
@@ -160,7 +160,7 @@ body {
   margin: 0 0.6rem;
   font-size: 1.4rem;
   cursor: pointer;
-  color: #271c6c;
+  color: #37bb48;
   background-color: transparent;
 }
 
@@ -172,7 +172,7 @@ body {
   position: absolute;
   right: 0.3rem;
   top: 0.3rem;
-  background-color: #867bcd;
+  background-color:#37bb48;
   border: 2px solid #272727;
   color: #e1ebfd;
 

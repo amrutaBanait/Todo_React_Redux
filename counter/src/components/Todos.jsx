@@ -42,6 +42,7 @@ const Todos = (props) => {
         type="text"
         onChange={(e) => handleChange(e)}
         className="todo-input"
+        placeholder="Add todos..."
         value={todo}
       />
 

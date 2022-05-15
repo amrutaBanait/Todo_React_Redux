@@ -52,7 +52,7 @@ const DisplayTodos = (props) => {
         </motion.button>
       </div>
       <ul>
-        {/* <AnimatePresence> */}
+        <AnimatePresence>
           {props.todos.length > 0 && sort === "active"
             ? props.todos.map((item) => {
                 return (
@@ -98,7 +98,7 @@ const DisplayTodos = (props) => {
                 );
               })
             : null}
-        {/* </AnimatePresence> */}
+        </AnimatePresence>
       </ul>
     </div>
   );

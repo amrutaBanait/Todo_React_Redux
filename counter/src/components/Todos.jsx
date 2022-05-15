@@ -10,11 +10,11 @@ const mapStateToProps = (state) => {
   };
 };
 
-// const mapDispatchToProps = (dispatch) => {
-//   return {
-//     addTodo: (obj) => dispatch(addTodos(obj)),
-//   };
-// };
+const mapDispatchToProps = (dispatch) => {
+  return {
+    addTodo: (obj) => dispatch(addTodos(obj)),
+  };
+};
 
 // const Todos = (props) => {
 //   const [todo, setTodo] = useState("");

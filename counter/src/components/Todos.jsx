@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
 import { addTodos } from "../redux/reducer";
-//import { GoPlus } from "react-icons/go";
-//import { motion } from "framer-motion";
+import { GoPlus } from "react-icons/go";
+import { motion } from "framer-motion";
 
 const mapStateToProps = (state) => {
   return {

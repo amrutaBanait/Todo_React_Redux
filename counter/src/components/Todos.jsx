@@ -16,12 +16,12 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-// const Todos = (props) => {
-//   const [todo, setTodo] = useState("");
+const Todos = (props) => {
+  const [todo, setTodo] = useState("");
 
-//   const handleChange = (e) => {
-//     setTodo(e.target.value);
-//   };
+  const handleChange = (e) => {
+    setTodo(e.target.value);
+  };
 
   const add = () => {
     if (todo === "") {

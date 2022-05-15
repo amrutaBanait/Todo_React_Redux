@@ -22,7 +22,8 @@ const Todos = (props) => {
   const handleChange = (e) => {
     setTodo(e.target.value);
   };
-
+  
+//To add new todos
   const add = () => {
     if (todo === "") {
       alert("Input is Empty");

@@ -181,7 +181,7 @@ body {
   border-radius: 20px;
 }
 
-/* @media Screen and (max-width: 640px) {
+@media Screen and (max-width: 640px) {
   .displaytodos {
     overflow: hidden;
     margin-top: 2rem;
@@ -196,4 +196,4 @@ body {
   .card {
     margin-right: 0;
   }
-} */
+}

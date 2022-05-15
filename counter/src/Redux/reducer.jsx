@@ -13,9 +13,9 @@ const addTodoReducer = createSlice({
       return state;
     },
     //remove todos
-    // removeTodos: (state, action) => {
-    //   return state.filter((item) => item.id !== action.payload);
-    // },
+    removeTodos: (state, action) => {
+      return state.filter((item) => item.id !== action.payload);
+    },
     //update todos
     updateTodos: (state, action) => {
       return state.map((todo) => {

@@ -1,9 +1,28 @@
-import React from "react";
+import DisplayTodos from "./components/DisplayTodos";
+import Todos from "./components/Todos";
+import {motion} from 'framer-motion';
+import "./Css/main.css"
+function App() {
+  
 
-function App(){
   return (
-    <h1>Hello world</h1>
+    <div className="App">
+      <motion.h1 initial={{y: -200}}
+      animate={{y: 0}}
+      transition={{type: "spring",duration: 0.5}}
+      whileHover={{scale: 1.1}}
+      >
+        Todo App
+      </motion.h1>
+      <motion.div initial={{y:100}}
+      animate={{y: 0}}
+      transition={{type: "spring",duration: 1}}
+      >
+      <Todos />
+      <DisplayTodos />
+      </motion.div>
+    </div>
   )
 }
 
-export default App;
+export default App

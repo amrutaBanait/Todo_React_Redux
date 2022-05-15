@@ -29,18 +29,18 @@ const addTodoReducer = createSlice({
     //   });
     // },
     //completed
-//     completeTodos: (state, action) => {
-//       return state.map((todo) => {
-//         if (todo.id === action.payload) {
-//           return {
-//             ...todo,
-//             completed: true,
-//           };
-//         }
-//         return todo;
-//       });
-//     },
-//   },
+    completeTodos: (state, action) => {
+      return state.map((todo) => {
+        if (todo.id === action.payload) {
+          return {
+            ...todo,
+            completed: true,
+          };
+        }
+        return todo;
+      });
+    },
+  },
 });
 
 export const {

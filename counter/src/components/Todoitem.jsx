@@ -13,13 +13,13 @@ const TodoItem = (props) => {
     inputRef.current.focus();
   };
 
-//   const update = (id, value, e) => {
-//     if (e.which === 13) {
-//       //here 13 is key code for enter key
-//       updateTodo({ id, item: value });
-//       inputRef.current.disabled = true;
-//     }
-//   };
+  const update = (id, value, e) => {
+    if (e.which === 13) {
+      //here 13 is key code for enter key
+      updateTodo({ id, item: value });
+      inputRef.current.disabled = true;
+    }
+  };
   return (
     <motion.li
       initial={{ x: "150vw", transition: { type: "spring", duration: 2 } }}
@@ -72,7 +72,7 @@ const TodoItem = (props) => {
           <IoClose />
         </motion.button>{" "}
       </div>
-      //{item.completed && <span className="completed">done</span>}
+      {item.completed && <span className="completed">done</span>}
     </motion.li>
   );
 };
